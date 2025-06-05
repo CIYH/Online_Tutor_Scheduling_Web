@@ -59,6 +59,20 @@
             <version>2.1.1</version> <!-- Check for the latest version -->
         </dependency>
         
+        <!-- JDBC support from Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.33</version> <!-- Hoặc phiên bản phù hợp với Spring của bạn -->
+        </dependency>
+
+        <!-- MySQL Connector/J -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version> <!-- Phiên bản này có sẵn -->
+        </dependency>
+        
     </dependencies>
     
     <build>
