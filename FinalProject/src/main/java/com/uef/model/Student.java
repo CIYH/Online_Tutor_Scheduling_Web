@@ -4,11 +4,25 @@
  */
 package com.uef.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author qnhat
  */
 
 public class Student extends People {
+    
+    private List<BookingSession> list = new ArrayList<BookingSession>();
+
+    public List<BookingSession> getList() {
+        return list;
+    }
+
+    public void setList(List<BookingSession> list) {
+        this.list = list;
+    }
+    
     
 }
