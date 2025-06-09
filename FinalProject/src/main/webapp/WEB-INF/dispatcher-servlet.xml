@@ -20,6 +20,9 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!-- Scan Java classes with annotations such as @Controller --> 
     <context:component-scan base-package="com.uef"/> 
     <!--Enable the use of annotations such as @RequestMapping --> 
+    
+    
+    <mvc:resources mapping="/assets/**" location="/assets/"/>
     <mvc:annotation-driven/> 
     <!-- Configure the view resolver --> 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
